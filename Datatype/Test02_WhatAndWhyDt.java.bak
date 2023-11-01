@@ -1,0 +1,43 @@
+/*
+02. What is a data type?
+		 - A keyword or a class name that is used for creating a variable or an 
+		 object is called as data type.
+
+03. Why data type?
+		-Data type is used to give information to the compiler and JVM for creating 
+		variable and object memory
+
+		-A datatype given 5 detail to compiler and JVM
+				1. Type of the memory  (Integer ,Floating-point,Character,Boolean,String)
+				2. Size of the memory   (1/2/4/8 bytes memory)
+				3. Type of the value can be stored (integer ,fp,char,boolean,string)and
+						range of the value(1digit,2digit,3digit...)
+				4.  different opertor allowed to apply on this variable
+				5. the type of the result comes to out from an expression,
+				     when we use this variable as an operend
+
+		-which ever keyword given above information that keyword is called data type
+					for example :
+						-int,double,char,boolean etc ...are data type keyword 
+						-class, static,new etc...are not data type keywords
+
+04. Types of data types?
+				-Java supports two types of data types 
+							1 PDT
+							2 RDT
+				-PDT for creating variable for storing one mathematical value 
+				-RDT is for creating object for storing multiple values
+				-PDT 
+							-Integer    ->byte,short,int,long ->for storing integers
+							-Floating-point   ->float,double  ->for storing fp values
+							-Character       -> char				->for storing character
+							-Boolean			->boolean			->for storing boolean value
+				-RDT
+*/
+class  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
